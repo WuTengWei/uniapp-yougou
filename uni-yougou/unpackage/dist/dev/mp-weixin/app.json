@@ -5,7 +5,17 @@
     "pages/cart/cart",
     "pages/mine/mine"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "goods_detail/goods_detail",
+        "goods/goods",
+        "goods_list/goods_list"
+      ],
+      "name": "subpkg"
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "uni-app",
